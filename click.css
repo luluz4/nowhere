@@ -1,0 +1,56 @@
+body {
+    background-image: url(picsss/click.gif);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vw;
+    width: 100vh;
+}
+
+#v {
+    position: fixed;
+    left: 50%;
+    bottom: 80%;
+    width: 10%;
+    height: 6%;
+}
+
+#o {
+    position: fixed;
+    left: 85%;
+    bottom: 26%;
+    width: 10%;
+    height: 6%
+}
+
+#l {
+    position: fixed;
+    left: 30%;
+    bottom: 3%;
+    width: 10%;
+    height: 6%;
+}
+
+#b {
+    position: fixed;
+    left: 42%;
+    bottom: 25%;
+    width: 10%;
+    height: 6%;
+}
+
+#e {
+    position: fixed;
+    left: 24%;
+    bottom: 65%;
+    width: 10%;
+    height: 6%;
+}
+
+#r {
+    position: fixed;
+    left: 5%;
+    bottom: 7%;
+    width: 10%;
+    height: 6%;
+}

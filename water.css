@@ -1,0 +1,28 @@
+body {
+    background-image: url(picsss/fondo\ agua.gif);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vw;
+    width: 100vh;
+
+}
+
+#water {
+    padding: 3%;
+    height: 81%;
+    width: 37%;
+    bottom: 6%;
+    left: 27%;
+    position: absolute;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: rgb(138, 226, 255) !important;
+}
+
+#musica {
+    position: absolute;
+    bottom: 6%;
+    left: 41%;
+}

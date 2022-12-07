@@ -1,0 +1,31 @@
+#texto {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(51, 33, 0);
+    font-size: 1.5cm;
+    left: 29%;
+    top: 5%;
+    position: absolute;
+}
+
+body {
+    background-image: url(picsss/atardecerp.gif);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vw;
+    width: 100vh;
+}
+
+#formula {
+    position: fixed;
+    left: 34%;
+    top: 23%;
+}
+
+#cafe {
+    position: fixed;
+    left: 40%;
+    width: 15%;
+    top: 45%;
+}

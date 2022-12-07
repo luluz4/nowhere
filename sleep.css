@@ -1,0 +1,32 @@
+body {
+    background-image: url(picsss/cielitop.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vw;
+    width: 100vh;
+
+}
+
+#osito {
+    position: fixed;
+    left: 32%;
+    width: 43%;
+    top: 23%;
+}
+
+#enojado {
+    position: fixed;
+    left: 32%;
+    width: 43%;
+    top: 23%;
+    height: 64%;
+}
+
+p{
+    position: fixed;
+    left: 32%;
+    width: 15%;
+    top: 13%;
+    font-size: xx-large;
+}

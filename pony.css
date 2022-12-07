@@ -1,0 +1,51 @@
+#pinky {
+    position: fixed;
+    left: 37%;
+    width: 24%;
+    top: 23%;
+}
+
+#pimky {
+    position: fixed;
+    left: 37%;
+    width: 24%;
+    top: 23%;
+    height: 58%;
+}
+
+body {
+    background-image: url(picsss/campitoo.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vw;
+    width: 100vh;
+} 
+
+p{
+    position: fixed;
+    left: 19%;
+    width: 15%;
+    top: 32%;
+    font-size: xx-large;
+    background-color: #216c7a99;
+}
+
+#perdon {
+    position: fixed;
+    left: 14%;
+    width: 24%;
+    top: 42%;
+    color: white;
+    font-size: 0.6cm;
+}
+
+#sorry {
+    background-color: #216c7a99;
+}
+
+#fname {
+    position: fixed;
+    left: 21%;
+    top: 48%;
+}

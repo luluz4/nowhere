@@ -1,0 +1,26 @@
+#casette {
+    padding: 3%;
+    height: 50%;
+    width: 29%;
+    left: 32%;
+    bottom: 19%;
+    position: absolute;
+}
+
+body {
+    background-image: url(picsss/palmera.gif);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vw;
+    width: 100vh;
+}
+#musica {
+    position: absolute;
+    bottom: 18%;
+    left: 41%;
+}
+
+audio::-webkit-media-controls-panel{
+    background-color:rgb(255, 133, 237) !important;
+    }

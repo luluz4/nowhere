@@ -1,0 +1,24 @@
+#sweet {
+    padding: 3%;
+    height: 24%;
+    width: 15%;
+    bottom: 32%;
+    left: 12%;
+    position: absolute
+}
+#gomitas {
+    padding: 3%;
+    height: 51%;
+    width: 37%;
+    bottom: 20%;
+    left: 28%;
+    position: absolute;
+}
+body {
+    background-image: url(picsss/campito.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vw;
+    width: 100vh;    
+}

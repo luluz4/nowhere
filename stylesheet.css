@@ -1,0 +1,213 @@
+body {
+    background-color: black !important;
+} 
+
+/*body {
+    background-image: url(picsss/micro.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vw;
+}*/
+
+.imagenes>img,
+a {
+    padding: 5%;
+}
+
+.flex {
+    display: flex;
+    position: absolute;
+    top: 0;
+    flex-direction: column;
+    margin-left: 1%;
+    justify-content: center;
+}
+
+.flex>div {
+    height: 18%;
+    width: 18%;
+    margin-right: 1%;
+}
+
+
+.flexi {
+    display: flex;
+    position: absolute;
+    top: 0;
+    flex-direction: column;
+    margin-left: 12%;
+    justify-content: center;
+}
+
+.flexi>div {
+    height: 8%;
+    width: 8%;
+
+}
+/*
+#no {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(30, 0, 255);
+    text-align: center;
+    position: relative;
+    font-size: 2cm;
+}*/
+
+#no {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:yellow;
+    text-align: center;
+    position: relative;
+    font-size: 2cm;
+    font-style: bold;
+}
+#caramelo {
+    height: 100%;
+    width: 100%;
+}
+
+#carpeta {
+    height: 100%;
+    width: 100%;
+}
+
+#CD {
+    height: 100%;
+    width: 100%;
+}
+
+#quimica {
+    height: 100%;
+    width: 100%;
+}
+
+#galletitas {
+    height: 100%;
+    width: 100%;
+}
+
+#hongos {
+    height: 100%;
+    width: 100%;
+}
+
+#mimi {
+    height: 100%;
+    width: 100%;
+}
+
+#planeta {
+    height: 100%;
+    width: 100%;
+}
+
+#PH {
+    height: 100%;
+    width: 100%;
+}
+
+#carpetared {
+    height: 100%;
+    width: 100%;
+}
+
+
+#manito {
+    position: absolute;
+    bottom: 550px;
+    left: 1100px;
+}
+
+#acido {
+    height: 136px;
+    width: 157px;
+    position: absolute;
+    bottom: 121px;
+    left: 201px;
+}
+
+
+
+#diskette {
+    height: 236px;
+    width: 255px;
+    position: absolute;
+    bottom: 307px;
+    left: 245px;
+}
+
+
+
+
+
+#pie {
+    height: 5%;
+    width: 100%;
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+}
+
+#ventana {
+    width: 5%;
+    height: 5%;
+    width: 20%;
+    left: -1%;
+    bottom: 36%;
+    position: absolute;
+}
+
+#ventanap {
+    width: 100%;
+}
+
+.window {
+    background-color: #cdcdcd;
+    height: 250px;
+    width: 325px;
+    position: fixed;
+    bottom: 5%;
+    left: 0%;
+    overflow: hidden;
+}
+
+
+.window a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border: solid;
+    border-width: 0.001cm;
+    border-color:  rgb(189 189 189);
+    width: 166%;
+    display: flex;
+    justify-content: start;
+    color: black;
+}
+
+.window a:hover {
+    background-color: #1b4cfb;
+    color: rgb(255, 255, 255);
+    width: 167%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+a{
+ font-family:monospace;
+color: yellow !important;
+ font-weight: bold;
+}
+
+
+img {
+    filter:blur(4px) !important;
+}
+
+img:hover {
+    filter: blur(0px) !important;
+}

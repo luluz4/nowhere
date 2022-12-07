@@ -1,0 +1,48 @@
+#rafiki {
+    position: fixed;
+    left: 33%;
+    top: 17%;
+    width: 35%;
+}
+
+.send {
+    left: 103px;
+    bottom: 7%;
+    position: fixed;
+}
+
+body {
+    background-image: url(picsss/leon.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vw;
+    width: 100vh;
+}
+
+#text {
+    font-family: initial;
+    font-size: 0.5cm;
+    font-weight: normal;
+    color: white;
+    left: 56px;
+    bottom: 21%;
+    letter-spacing: 0.1cm;
+    position: fixed;
+    background-color: #3b819987;
+}
+
+
+#nombre {
+    background-color:#3b819987 ;
+    border-radius: 30%;
+    color: white;
+    font-size: 0.5cm;
+}
+
+#apellido {
+    background-color:#3b819987 ;
+    border-radius: 30%;
+    color:white;
+    font-size: 0.5cm;
+}

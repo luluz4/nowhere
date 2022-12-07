@@ -1,0 +1,16 @@
+body {
+    background-image: url(picsss/glichch.gif);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vw;
+    width: 100vh;
+}
+
+#lampara {
+    height: 50%;
+    width: 25%;
+    position: absolute;
+    bottom: 21%;
+    left: 37%;
+}

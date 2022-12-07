@@ -1,0 +1,15 @@
+body {
+    background-image: url(picsss/glich.gif);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vw;
+    width: 100vh;    
+}
+#persona {
+    height: 53%;
+    width: 29%;
+    position: absolute;
+    bottom: 21%;
+    left: 3%
+}

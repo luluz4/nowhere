@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sleep</title>
+    <link rel="stylesheet" href="sleep.css">
+    <style>
+        .popup {
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+
+        .popup .popuptext {
+            visibility: hidden;
+            width: 160px;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 8px 0;
+            position: absolute;
+            z-index: 1;
+            bottom: -300%;
+            left: -26%;
+            margin-left: -80px;
+        }
+
+
+        .popup .popuptext::after {
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            margin-left: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: #555 transparent transparent transparent;
+        }
+
+
+        .popup .show {
+            visibility: visible;
+            -webkit-animation: fadeIn 1s;
+            animation: fadeIn 0.2s;
+        }
+
+
+        @-webkit-keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+        .volverAGaleria {
+            position: fixed;
+            left: 33px;
+            bottom: 10%;
+            width: 100px;
+            height: 30px;
+            background-color:blue;
+            border-radius: 35%;
+        }
+
+        div.volverAGaleria:hover {
+            left: 33px;
+            display: block;
+            opacity: 1;
+        }
+
+        .textoBackGaleria {
+            opacity: 1;
+            text-align: center;
+            width: 70px !important;
+        }
+
+        span.textoBackGaleria:hover {
+            opacity: 1;
+        }
+
+        .volverAGaleria:hover span.textoBackGaleria {
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+
+    <body style="text-align:center">
+
+
+
+        <div class="popup" onclick="myFunction()">
+            <h1 id="click">
+                <img src="picsss/osito.gif" alt="pinky" id="osito">
+            </h1>
+            <span class="popuptext" id="myPopup">
+                <a href="">
+                    <img src="picsss/enojado.jpg" alt="ventana emergente" id="enojado">
+                </a>
+                <p>Dejalo dormir pobrecito</p>
+
+            </span>
+        </div>
+        <script>
+
+            function myFunction() {
+                var popup = document.getElementById("myPopup");
+                popup.classList.toggle("show");
+            }
+        </script>
+        <div class="volverAGaleria">
+            <a href="index.html"
+                style=" text-decoration: none;font-weight: bold;  font-size: 22px;color: rgb(255, 255, 255);font-family:monospace; letter-spacing: -0.9px;">
+                <span class="textoBackGaleria">
+                    Volver
+                </span>
+            </a>
+        </div>
+    </body>
+
+</html>

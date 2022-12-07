@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No where</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <style>
+        .popup {
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+
+        .popup .popuptext {
+            visibility: hidden;
+            width: 160px;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 8px 0;
+            position: absolute;
+            z-index: 1;
+            bottom: -450%;
+            left: -1%;
+            margin-left: -80px;
+        }
+
+
+        .popup .popuptext::after {
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 0%;
+            margin-left: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: #555 transparent transparent transparent;
+        }
+
+
+        .popup .show {
+            visibility: visible;
+            -webkit-animation: fadeIn 1s;
+            animation: fadeIn 1s;
+        }
+
+
+        @-webkit-keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body style="text-align:center">
+
+    <div id="no">
+        <div>
+            <h1> No </h1>
+        </div>
+
+        <div>
+            <h1>where</h1>
+        </div>
+    </div>
+
+
+
+    <div class="flex" id="flexx">
+        <div>
+            <a href="whats.html">
+                <img src="picsss/caramelo.gif" alt="caramelo" id="caramelo">
+            </a>
+        </div>
+        <div>
+            <a href="file.html">
+                <img src="picsss/carpeta.png" alt="carpeta" id="carpeta">
+            </a>
+        </div>
+
+        <div>
+            <a href="cafe.html">
+                <img src="picsss/ciencia.png" alt="cosas de quimica" id="quimica">
+            </a>
+        </div>
+        <div>
+            <a href="coockies.html">
+                <img src="picsss/galletitasss.png" alt="galletitas" id="galletitas">
+            </a>
+        </div>
+
+        <div>
+            <a href="pokemon.html">
+                <img src="picsss/mimikiu.png" alt="mimikiu" id="mimi">
+            </a>
+        </div>
+        <div>
+            <a href="nonexist.html">
+                <img src="picsss/mundo.png" alt="icono de planeta" id="planeta">
+            </a>
+        </div>
+        <div>
+            <a href="water.html">
+                <img src="picsss/ph.png" alt="icono de papel higienico" id="PH">
+            </a>
+        </div>
+    </div>
+    <div class="flexi">
+        <div>
+            <a href="music.html">
+                <img src="picsss/cddd.png" alt="CD" id="CD">
+            </a>
+        </div>
+        <div>
+            <a href="wonderland.html">
+                <img src="picsss/hongod.gif" alt="hongos" id="hongos">
+            </a>
+
+        </div>
+        <div>
+            <a href="human.html">
+                <img src="picsss/sangre-carpeta.png" alt="carpeta de computadora" id="carpetared">
+            </a>
+        </div>
+    </div>
+
+    <div class="imagenes">
+        <img src="picsss/mano.gif" alt="manito" id="manito">
+        <a href="acid.html">
+            <img src="picsss/acid.gif" alt="acido" id="acido">
+        </a>
+        <a href="disk.html">
+            <img src="picsss/diskette.png" alt="diskette" id="diskette">
+        </a>
+    </div>
+
+    <div class="popup" onclick="myFunction()"> <img src="picsss/pie-de-pagian.png" alt="pie de pagina" id="pie" class="pie">
+        <span class="popuptext" id="myPopup">
+            <div class="window">
+                <div>
+                    <a href="sleep.html">Zzz</a>
+                </div>
+                <div>
+                    <a href="error.html"> eRrOR</a>
+                </div>
+                <div>
+                    <a href="click.html">Don't click</a>
+                </div>
+                <div>
+                    <a href="pony.html">El poder de la amistad</a>
+                </div>
+                <div>
+                    <a href="wise.html">Fuente de sabiduría</a>
+                </div>
+               
+            </div>
+        </span>
+    </div>
+
+    <script>
+
+        function myFunction() {
+            var popup = document.getElementById("myPopup");
+            popup.classList.toggle("show");
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+#escucha{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255 236 166);
+    font-size: 1.5cm;
+    }
+    
+    #musica {
+        position: absolute;
+        bottom: 18%;
+        left: 41%;
+    }
+    #reproductor {
+        padding: 3%;
+        height: 45%;
+        width: 29%;
+        bottom: 20%;
+        left: 28%;
+        position: absolute;
+    }
+    body {
+        background-image: url(picsss/mueve.gif);
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        height: 100vw;
+        width: 100vh;        
+    }
+
+    audio::-webkit-media-controls-panel{
+        background-color:rgb(118, 0, 202) !important;
+        }

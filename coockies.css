@@ -1,0 +1,26 @@
+#ventana {
+    padding: 3%;
+    height: 44%;
+    width: 41%;
+    bottom: 10%;
+    left: 29%;
+    position: absolute;
+}
+
+#galletitas {
+    padding: 3%;
+    height: 15%;
+    width: 43%;
+    bottom: 60%;
+    left: 29%;
+    position: absolute
+}
+
+body {
+    background-image: url(picsss/cielop.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vw;
+    width: 100vh;
+}

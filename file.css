@@ -1,0 +1,16 @@
+body {
+    background-image: url(picsss/codigo.gif);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vw;
+    width: 100vh;    
+}
+
+#click {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(9, 255, 0);
+    font-size: 1.5cm;
+
+}
